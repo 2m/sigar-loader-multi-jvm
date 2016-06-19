@@ -1,5 +1,4 @@
 object Main extends App {
-  kamon.sigar.SigarProvisioner.provision()
   val sigar = new org.hyperic.sigar.Sigar()
 
   while (true) {
